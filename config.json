@@ -3,8 +3,8 @@
     "Port": "8080",
     "Plugins" : [
         {
-            "Path" : "stat",
-            "Class" : "DNWS.StatPlugin",
+            "Path" : "clientinfo",
+            "Class" : "DNWS.client_info",
             "Preprocessing" : "true",
             "Postprocessing" : "false" ,
             "Singleton" : "false"
@@ -20,6 +20,13 @@
             "Class" : "DNWS.DelayPlugin",
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
+        },
+        {
+            "Path" : "stat",
+            "Class" : "DNWS.StatPlugin",
+            "Preprocessing" : "true",
+            "Postprocessing" : "false" ,
+            "Singleton" : "false"
         }
     ]
 }
