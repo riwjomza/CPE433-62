@@ -15,6 +15,7 @@
             "Preprocessing" : "false",
             "Postprocessing" :"false" 
         },
+        
         {
             "Path" : "delay",
             "Class" : "DNWS.DelayPlugin",
@@ -22,11 +23,11 @@
             "Postprocessing" :"false" 
         },
         {
-            "Path" : "stat",
+            "Path" : "pm25",
             "Class" : "DNWS.StatPlugin",
-            "Preprocessing" : "true",
-            "Postprocessing" : "false" ,
-            "Singleton" : "false"
+            "Preprocessing" : "false",
+            "Postprocessing" : "false" 
+            
         }
     ]
 }
